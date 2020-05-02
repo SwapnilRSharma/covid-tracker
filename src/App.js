@@ -10,6 +10,8 @@ class App extends React.Component{
         data: {},
     }
     async componentDidMount() {
+        console.log('This is in setup-api branch');
+
         const fetchedData = await fetchData();
         this.setState(() => {
             return {
