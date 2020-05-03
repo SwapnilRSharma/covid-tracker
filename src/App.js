@@ -33,6 +33,7 @@ class App extends React.Component{
                 <Cards data={data}/>
                 <CountryPicker  />
                 <Chart />
+                
             </div>
         );
     };
