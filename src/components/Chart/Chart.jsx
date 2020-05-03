@@ -67,7 +67,7 @@ const Chart = () => {
     );*/
     return(
     <div className={styles.container}>
-        chart
+        charts
     </div>)
 
 }
