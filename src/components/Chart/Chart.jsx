@@ -6,7 +6,7 @@ import {fetchDailyData} from '../../api';
 
 const Chart = () => {
 
-    const [dailyData, setDailyData ]=useState([]);
+    /*const [dailyData, setDailyData ]=useState([]);
     useEffect(()=>{
       const fetchAPI=async()=>{
         console.log(dailyData);
@@ -46,7 +46,7 @@ const Chart = () => {
 
     );
 
-   /* const barChart = (
+    const barChart = (
         <Bar>
           data = {{
               labels: ['Infected', 'Recovered', 'Deaths'],
@@ -67,7 +67,7 @@ const Chart = () => {
     );*/
     return(
     <div className={styles.container}>
-        {lineChart}
+        chart
     </div>)
 
 }
